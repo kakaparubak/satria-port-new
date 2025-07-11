@@ -10,6 +10,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-covgrace: var(--font-covgrace);
+  --font-sedgwick: var(--font-sedgwick);
+  --font-montserrat: var(--font-montserrat);
+  --font-lexpeta: var(--font-lexpeta);
   --font-lacquer: var(--font-lacquer);
 }
 

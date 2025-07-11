@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Lacquer } from "next/font/google";
+import { Geist, Geist_Mono, Covered_By_Your_Grace, Sedgwick_Ave_Display, Montserrat, Lexend_Peta, Lacquer } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,11 +12,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const lexpeta = Lexend_Peta({
+  variable: "--font-lexpeta",
+  subsets: ["latin"]
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"]
+});
+
+const covGrace = Covered_By_Your_Grace({
+  variable: "--font-covgrace",
+  subsets: ["latin"],
+  weight: "400"
+});
+
+const sedgwick = Sedgwick_Ave_Display({
+  variable: "--font-sedgwick",
+  subsets: ["latin"],
+  weight: "400"
+});
+
 const lacquer = Lacquer({
   variable: "--font-lacquer",
   subsets: ["latin"],
   weight: "400"
-})
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lacquer.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${covGrace.variable} ${sedgwick.variable} ${montserrat.variable} ${lexpeta.variable} ${lacquer.variable} antialiased`}
       >
         {children}
       </body>
