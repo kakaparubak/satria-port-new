@@ -18,6 +18,8 @@
   --font-montserrat: var(--font-montserrat);
   --font-lexpeta: var(--font-lexpeta);
   --font-lacquer: var(--font-lacquer);
+  --tracking-tightest: -0.1em;
+  --text-shadow-spread: 0px 0px 10px #000;
 }
 
 @media (prefers-color-scheme: dark) {

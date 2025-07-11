@@ -15,10 +15,10 @@ const Home = () => {
         </video>
         <div className="h-screen w-screen bg-gray-950 opacity-80 absolute"></div>
         <div className="absolute flex justify-center items-center flex-col">
-          <h1 className="text-6xl font-lexpeta -tracking-widest font-medium text-center text-shadow-lg text-white">
+          <h1 className="text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
             Hello! My name is...
           </h1>
-          <p className="text-center font-lacquer tracking-tight text-9xl font-bold mt-7 text-white text-shadow-lg text-shadow-black">
+          <p className="text-center font-lacquer tracking-tight text-9xl font-bold mt-7 text-white text-shadow-spread text-shadow-amber-50/50">
             satrIa cHandRa
           </p>
           <ChangingText />
@@ -27,9 +27,6 @@ const Home = () => {
           <p className="font-bold font-lexpeta tracking-tight text-gray-200">
             SCROLL
           </p>
-          <h1 className="text-7xl font-montserrat text-stroke text-transparent text-stroke-white ">
-    Hello, TailwindCSS
-</h1>
           <IoMdArrowDown className="text-gray-100" size={30} />
         </div>
       </div>
