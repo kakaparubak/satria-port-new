@@ -9,7 +9,7 @@ const Home = () => {
       className="h-auto text-white scroll-smooth"
       style={{ scrollBehavior: "smooth" }}
     >
-      <div className="h-screen w-screen flex items-center justify-center text-amber-50 bg-radial from-gray-800 to-gray-950 bg-center overflow-hidden">
+      <div className="h-svh w-screen flex items-center justify-center text-amber-50 bg-radial from-gray-800 to-gray-950 bg-center overflow-hidden">
         <video className="w-screen h-screen object-cover" autoPlay muted loop>
           <source src="/hero-vid.mp4" type="video/mp4"></source>
         </video>
@@ -18,8 +18,8 @@ const Home = () => {
           <h1 className="text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
             Hello! My name is...
           </h1>
-          <p className="text-center font-lacquer tracking-tight text-9xl font-bold mt-7 text-white text-shadow-spread text-shadow-amber-50/50">
-            satrIa cHandRa
+          <p className="text-center font-lexpeta tracking-tightest text-8xl/tight font-extrabold mt-12 px-10 py-5 text-white">
+            Satria Chandra
           </p>
           <ChangingText />
         </div>

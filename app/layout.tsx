@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Covered_By_Your_Grace, Sedgwick_Ave_Display, Montserrat, Lexend_Peta, Lacquer } from "next/font/google";
+import { Geist, Geist_Mono, Covered_By_Your_Grace, Michroma, Montserrat, Lexend_Peta, Lacquer } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +28,7 @@ const covGrace = Covered_By_Your_Grace({
   weight: "400"
 });
 
-const sedgwick = Sedgwick_Ave_Display({
+const sedgwick = Michroma({
   variable: "--font-sedgwick",
   subsets: ["latin"],
   weight: "400"
