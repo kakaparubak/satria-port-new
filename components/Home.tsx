@@ -1,11 +1,11 @@
 "use client"
 import ChangingText from "./elements/ChangingText";
-import PastProjects from "./elements/PastProjects";
 import { IoMdArrowDown } from "react-icons/io";
 import { gsap } from "gsap/dist/gsap"
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
 import { useGSAP } from '@gsap/react';
+import ComingSoon from "./ComingSoon";
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
@@ -45,7 +45,7 @@ const Home = () => {
           <IoMdArrowDown className="text-gray-100" size={30} />
         </div>
       </div>
-      <PastProjects />
+      <ComingSoon />
     </div>
     </div>
   );
