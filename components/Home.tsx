@@ -1,4 +1,5 @@
 import React from 'react'
+import ChangingText from './elements/ChangingText'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <div className='absolute flex justify-center items-center flex-col'>
           <h1 className='text-6xl font-lexpeta -tracking-widest font-medium text-center text-shadow-lg text-white'>Hello! My name is...</h1>
           <p className='text-center font-lacquer tracking-tight text-9xl font-bold mt-7 text-white text-shadow-lg text-shadow-black'>satrIa cHandRa</p>
-          <p className='text-center font-montserrat text-3xl font-medium mt-7 tracking-tighter text-white'>and I am a <span className='underline font-covgrace tracking-wider text-cyan-400 text-4xl'>Lighting Engineer.</span></p>
+          <ChangingText />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 absolute bottom-7 stroke-2 stroke-gray-200">
           <path fillRule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v16.19l6.22-6.22a.75.75 0 1 1 1.06 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 1 1 1.06-1.06l6.22 6.22V3a.75.75 0 0 1 .75-.75Z" clipRule="evenodd" />
