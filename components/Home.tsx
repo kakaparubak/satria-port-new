@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import ChangingText from "./elements/ChangingText";
+import PastProjects from "./elements/PastProjects";
 import { IoMdArrowDown } from "react-icons/io";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
           <h1 className="text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
             Hello! My name is...
           </h1>
-          <p className="text-center font-lexpeta tracking-tightest text-8xl/tight font-extrabold mt-12 px-10 py-5 text-white">
+          <p className="text-center font-lexpeta tracking-tightest text-8xl/tight font-extrabold mt-8 px-10 py-5 text-white">
             Satria Chandra
           </p>
           <ChangingText />
@@ -30,11 +31,7 @@ const Home = () => {
           <IoMdArrowDown className="text-gray-100" size={30} />
         </div>
       </div>
-      <div className="h-screen w-screen bg-radial from-gray-900 to-gray-950 flex flex-col justify-center items-center relative">
-        <h2 className="font-lexpeta tracking-tighter text-4xl font-bold absolute top-15">
-          Past Experience
-        </h2>
-      </div>
+      <PastProjects />
     </div>
   );
 };

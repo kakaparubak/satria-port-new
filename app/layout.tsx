@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Covered_By_Your_Grace, Michroma, Montserrat, Lexend_Peta, Lacquer } from "next/font/google";
+import { Geist, Geist_Mono, Covered_By_Your_Grace, Montserrat, Lexend_Peta, Inter } from "next/font/google";
+import { madeTommyOutline } from "@/assets/fonts";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,17 +29,10 @@ const covGrace = Covered_By_Your_Grace({
   weight: "400"
 });
 
-const sedgwick = Michroma({
-  variable: "--font-sedgwick",
-  subsets: ["latin"],
-  weight: "400"
-});
-
-const lacquer = Lacquer({
-  variable: "--font-lacquer",
-  subsets: ["latin"],
-  weight: "400"
-});
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -53,7 +47,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${covGrace.variable} ${sedgwick.variable} ${montserrat.variable} ${lexpeta.variable} ${lacquer.variable} antialiased`}
+        className={`${geistSans.variable} 
+                    ${geistMono.variable} 
+                    ${covGrace.variable} 
+                    ${montserrat.variable} 
+                    ${lexpeta.variable} 
+                    ${madeTommyOutline.variable} 
+                    ${inter.variable} 
+                    antialiased`}
       >
         {children}
       </body>

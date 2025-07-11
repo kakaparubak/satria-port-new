@@ -14,12 +14,13 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-covgrace: var(--font-covgrace);
-  --font-sedgwick: var(--font-sedgwick);
   --font-montserrat: var(--font-montserrat);
   --font-lexpeta: var(--font-lexpeta);
-  --font-lacquer: var(--font-lacquer);
+  --font-tommy: var(--font-tommy);
+  --font-inter: var(--font-inter);
   --tracking-tightest: -0.1em;
   --text-shadow-spread: 0px 0px 10px #000;
+  --text-shadow-10: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 @media (prefers-color-scheme: dark) {
