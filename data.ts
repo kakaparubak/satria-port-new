@@ -5,3 +5,14 @@ export const roles = [
   "Program Director.",
   "Multicam Switcher."
 ];
+
+export const projects = [
+  [
+    {
+      name: "BANK INDONESIA",
+      img: ""
+    }
+  ],
+  [],
+  []
+]
