@@ -1,5 +1,5 @@
 export const roles = [
-  "Developer",
-  "Engineer",
+  "Designer",
+  "Operator",
   "Programmer"
 ];
