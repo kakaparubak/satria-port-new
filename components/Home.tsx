@@ -4,18 +4,20 @@ import { IoMdArrowDown } from "react-icons/io";
 import { gsap } from "gsap/dist/gsap"
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
-import { useGSAP } from '@gsap/react';
 import ComingSoon from "./ComingSoon";
-
-gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-  ScrollSmoother.create({
+    ScrollSmoother.create({
     smooth: 1,
     smoothTouch: 0.1,
     effects: true
   });
+
+  }, []);
 
   return (
     <div id="smooth-wrapper">
