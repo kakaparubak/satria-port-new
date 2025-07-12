@@ -22,11 +22,11 @@ const ChangingText = () => {
   });
 
   return (
-    <div className="relative flex gap-2.5 mt-8 justify-center items-center">
-      <p className="relative -left-35 text-center font-montserrat text-3xl font-medium tracking-tighter text-white">
+    <div className="relative md:left-6 lg:left-2.5 flex flex-col md:flex-row lg:flex-row md:gap-2.5 lg:gap-2.5 mt-8 justify-center items-center">
+      <p className="relative text-center font-montserrat text-3xl font-medium tracking-tighter text-white">
         and I am a {" "}
       </p>
-      <div className="w-[400px] left-5 -top-[42px] text-left changing-text absolute flex flex-col justify-center items-baseline underline underline-offset-4 decoration-2 font-covgrace tracking-wider text-cyan-400 text-4xl">
+      <div className="md:w-[320px] lg:w-[320px] relative md:-top-5.5 lg:-top-5.5 text-center changing-text flex flex-col justify-center md:items-baseline lg:items-baseline items-center underline underline-offset-4 decoration-2 font-covgrace tracking-wider text-cyan-400 text-4xl">
         <p id="top-role" className="opacity-0" ref={topRole}>{roles[index2]}</p>
         <p id="bottom-role" className="opacity-50" ref={bottomRole}>{roles[index1]}</p>
       </div>

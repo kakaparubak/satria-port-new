@@ -7,6 +7,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { useGSAP } from "@gsap/react";
 import { useEffect } from "react";
 import ComingSoon from './ComingSoon';
+import PastProjects from "./elements/PastProjects";
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
@@ -14,8 +15,9 @@ const Home = () => {
   useEffect(() => {
     ScrollSmoother.create({
       smooth: 1,
-      smoothTouch: 0.1,
+      smoothTouch: 0,
       effects: true,
+      normalizeScroll: true 
     });
   }, []);
 
@@ -32,6 +34,8 @@ const Home = () => {
             autoPlay
             muted
             loop
+            playsInline
+            controls={false}
             data-speed="0.75"
           >
             <source
@@ -41,10 +45,10 @@ const Home = () => {
           </video>
           <div className="h-screen w-screen bg-gray-950 opacity-80 absolute"></div>
           <div className="absolute flex justify-center items-center flex-col">
-            <h1 className="text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
+            <h1 className="text-2xl md:text-4xl lg:text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
               Hello! My name is...
             </h1>
-            <p className="text-center font-lexpeta tracking-tightest text-8xl/tight font-extrabold mt-8 px-10 py-5 text-white">
+            <p className="text-center font-lexpeta tracking-tightest text-6xl md:text-8xl/tight lg:text-8xl/tight font-extrabold mt-8 px-5 py-5 text-white">
               Satria Chandra
             </p>
             <ChangingText />

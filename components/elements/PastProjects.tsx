@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { useRef, useState } from 'react';
 import { projects } from '@/data';
+import Image from 'next/image';
 
 gsap.registerPlugin(useGSAP);
 
@@ -40,37 +41,37 @@ const PastProjects = () => {
     const projectsArr = projects[Number(id)];
     return (
       <>
-        <span id={projectsArr[0].id} onMouseEnter={() => onHover(projectsArr[0].img)} className="hover:text-white transition-all text-nowrap text-shadow-lg">{projectsArr[0].name}</span>
-        <span id={projectsArr[1].id} onMouseEnter={() => onHover(projectsArr[1].img)} className="hover:text-white transition-all text-nowrap text-shadow-lg">{projectsArr[1].name}</span>
-        <span id={projectsArr[2].id} onMouseEnter={() => onHover(projectsArr[2].img)} className="hover:text-white transition-all text-nowrap text-shadow-lg">{projectsArr[2].name}</span>
+        <span id={projectsArr[0].id} onMouseEnter={() => onHover(projectsArr[0].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[0].name}</span>
+        <span id={projectsArr[1].id} onMouseEnter={() => onHover(projectsArr[1].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[1].name}</span>
+        <span id={projectsArr[2].id} onMouseEnter={() => onHover(projectsArr[2].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[2].name}</span>
       </>
     )
   }
  
   return (
-    <div className="h-[80svh] bg-radial from-gray-900 to-gray-950 relative flex items-center">
-      <div className="absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline">
+    <div className="h-[65svh] bg-radial from-gray-900 to-gray-950 relative flex items-center overflow-hidden">
+      <div className="absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline" data-speed="1.1">
         <div className='block w-fit'>
-          <div id="wrapper1" ref={wrapper1} className="text-left font-extrabold text-stroke-2 text-stroke-white text-transparent text-9xl flex flex-nowrap gap-4 [word-spacing:-1rem] p-0 m-0 box-content">
+          <div id="wrapper1" ref={wrapper1} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-7xl md:text-8xl lg:text-8xl flex flex-nowrap gap-4 [word-spacing:-0.5rem] lg:[word-spacing:-1rem] p-0 m-0 box-content">
               <Spans id='0' onHover={handleSpanHover}/>
               <Spans id='0' onHover={handleSpanHover}/>
           </div>
         </div>
         <div className='block w-fit'>
-          <div id="wrapper1" ref={wrapper2} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-9xl flex flex-nowrap gap-4 [word-spacing:-1rem] p-0 m-0 box-content">
+          <div id="wrapper1" ref={wrapper2} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-7xl md:text-8xl lg:text-8xl flex flex-nowrap gap-4 [word-spacing:-0.5rem] lg:[word-spacing:-1rem] p-0 m-0 box-content">
               <Spans id='1' onHover={handleSpanHover}/>
               <Spans id='1' onHover={handleSpanHover}/>
           </div>
         </div>
         <div className='block w-fit'>
-          <div id="wrapper1" ref={wrapper3} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-9xl flex flex-nowrap gap-4 [word-spacing:-1rem] p-0 m-0 box-content">
+          <div id="wrapper1" ref={wrapper3} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-7xl md:text-8xl lg:text-8xl flex flex-nowrap gap-4 [word-spacing:-0.5rem] lg:[word-spacing:-1rem] p-0 m-0 box-content">
               <Spans id='2' onHover={handleSpanHover}/>
               <Spans id='2' onHover={handleSpanHover}/>
           </div>
         </div>
       </div>
-      <div className='flex justify-center w-screen h-3/5' data-speed="0.95">
-        <img src={image} className='h-[100%] object-cover aspect-[4/3] brightness-75 border-0 outline-0 rounded-3xl transition-all shadow-2xl shadow-amber-500/50' ref={imageEl} />
+      <div className='flex justify-center items-center w-screen h-[70%]' data-speed="1.05">
+        <Image src={image} alt='Projects Image' width={1200} height={900} className='h-[80%] lg:h-[100%] max-w-[650px] w-[70%] min-w-[300px] object-cover brightness-75 border-0 outline-0 rounded-3xl transition-all shadow-spread shadow-white/50' ref={imageEl}/>
       </div>
     </div>
   )
