@@ -1,5 +1,36 @@
+"use client"
 import Home from "@/components/Home";
+import PastProjects from "@/components/PastProjects";
+import gsap from 'gsap';
+import { useGSAP } from "@gsap/react";
+import { ScrollSmoother, ScrollTrigger } from "gsap/all";
+import ComingSoon from "@/components/ComingSoon";
+
+gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 
 export default function Page() {
-  return <Home />;
+  
+  useGSAP(() => {
+    ScrollSmoother.create({
+      smooth: 1,
+      smoothTouch: 0,
+      effects: true,
+      normalizeScroll: true 
+    });
+  }, []);
+
+  return (
+  <>
+    <div id="smooth-wrapper">
+      <div id="smooth-content"
+           className="h-auto text-white"
+           style={{ scrollBehavior: "smooth" }}
+      >
+        <Home />
+        <PastProjects />
+        <ComingSoon />
+      </div>
+    </div>
+  </>
+  );
 }

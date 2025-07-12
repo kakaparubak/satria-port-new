@@ -50,7 +50,7 @@ const PastProjects = () => {
  
   return (
     <div className="h-[65svh] bg-radial from-gray-900 to-gray-950 relative flex items-center overflow-hidden">
-      <div className="absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline" data-speed="1.1">
+      <div className="absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline" data-speed="1.08">
         <div className='block w-fit'>
           <div id="wrapper1" ref={wrapper1} className="font-extrabold text-stroke-2 text-stroke-white text-transparent text-7xl md:text-8xl lg:text-8xl flex flex-nowrap gap-4 [word-spacing:-0.5rem] lg:[word-spacing:-1rem] p-0 m-0 box-content">
               <Spans id='0' onHover={handleSpanHover}/>
@@ -70,8 +70,8 @@ const PastProjects = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center items-center w-screen h-[70%]' data-speed="1.05">
-        <Image src={image} alt='Projects Image' width={1200} height={900} className='h-[80%] lg:h-[100%] max-w-[650px] w-[70%] min-w-[300px] object-cover brightness-75 border-0 outline-0 rounded-3xl transition-all shadow-spread shadow-white/50' ref={imageEl}/>
+      <div className='flex justify-center items-center w-screen h-[70%]' data-speed="1.03">
+        <Image src={image} alt='Projects Image' width={1200} height={900} className='h-[90%] md:h-[100%] lg:h-[100%] max-w-[650px] w-[70%] min-w-[300px] object-cover brightness-75 border-0 outline-0 rounded-3xl transition-all shadow-spread shadow-white/50' ref={imageEl}/>
       </div>
     </div>
   )
