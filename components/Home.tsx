@@ -22,7 +22,7 @@ const Home = () => {
       </video>
       <div className="h-screen w-screen bg-gray-950 opacity-80 absolute"></div>
       <div className="absolute flex justify-center items-center flex-col">
-        <h1 className="text-2xl md:text-4xl lg:text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
+        <h1 className="text-3xl md:text-4xl lg:text-[40px] font-lexpeta tracking-tightest font-medium text-center text-white">
           Hello! My name is...
         </h1>
         <p className="text-center font-lexpeta tracking-tightest text-6xl md:text-8xl/tight lg:text-8xl/tight font-extrabold mt-8 px-5 py-5 text-white">
