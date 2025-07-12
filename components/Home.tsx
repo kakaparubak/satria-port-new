@@ -5,8 +5,8 @@ import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { useGSAP } from "@gsap/react";
-import ComingSoon from "./ComingSoon";
 import { useEffect } from "react";
+import ComingSoon from './ComingSoon';
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
