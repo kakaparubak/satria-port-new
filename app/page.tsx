@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import ComingSoon from "@/components/ComingSoon";
+import AboutMe from "@/components/AboutMe";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 
@@ -12,8 +13,7 @@ export default function Page() {
   
   useGSAP(() => {
     ScrollSmoother.create({
-      smooth: 1,
-      smoothTouch: 0,
+      smooth: 2,
       effects: true,
       normalizeScroll: true 
     });
@@ -28,7 +28,7 @@ export default function Page() {
       >
         <Home />
         <PastProjects />
-        <ComingSoon />
+        <AboutMe />
       </div>
     </div>
   </>

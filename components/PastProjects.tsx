@@ -95,7 +95,7 @@ const PastProjects = () => {
   };
 
   return (
-    <div className="h-[65svh] bg-radial from-gray-800 to-gray-950 relative flex items-center overflow-hidden">
+    <div className="h-[65svh] bg-gradient-to-b from-gray-950 via-gray-800 to-gray-950 relative flex items-center overflow-hidden">
       <div
         className="font-poppins sm:font-[700] md:font-[800] lg:font-[800] absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline"
         data-speed="1.08"
@@ -125,7 +125,7 @@ const PastProjects = () => {
       </div>
       <div
         className="relative flex justify-center items-center w-screen h-[80%]"
-        data-speed="1.03"
+        data-speed="1.04"
       >
         {isLoaded && (
           <ClipLoader

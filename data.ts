@@ -10,7 +10,7 @@ export const projects = [
   [
     {
       name: "BANK INDONESIA",
-      img: "https://pub-d15191339994413ea97910d3f097f601.r2.dev/THE%20CORRS%20(21).webp",
+      img: "https://i.imgur.com/TmYsw36.png",
       id: "0"
     },
     {
@@ -23,16 +23,11 @@ export const projects = [
       img: "https://i.imgur.com/evWq2cN.jpg",
       id: "2"
     },
-    {
-      name: "DANGDUT MUSIKAL",
-      img: "https://i.imgur.com/evWq2cN.jpg",
-      id: "3"
-    },
   ],
   [
     {
       name: "GREEN DAY JAKARTA",
-      img: "https://g8p7b7sjok.ufs.sh/f/Zqh06b1WVmYEUscvlHyECzGIe4lykq5YBaonjg98FLNVXrmP",
+      img: "https://i.imgur.com/8AFMW6F.gif",
       id: "0"
     },
     {
@@ -64,3 +59,9 @@ export const projects = [
     }
   ]
 ]
+
+export const aboutMe = {
+  name: "Satria Chandra",
+  image: "https://i.imgur.com/nuZnpsR.png",
+  aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla. Nulla facilisi. Maecenas pretium tellus ullamcorper laoreet luctus. In egestas dui quam, et pulvinar diam tincidunt nec. Nullam eu cursus leo. Vestibulum dapibus nisl sed faucibus hendrerit."
+}
