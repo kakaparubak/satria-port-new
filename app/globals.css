@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: var(--color-gray-950);
-  --foreground: var(--color-gray-100);
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 /* Add plugins */
@@ -21,13 +21,6 @@
   --tracking-tightest: -0.1em;
   --shadow-spread: 0px 0px 30px #000;
   --text-shadow-10: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #000000;
-  }
 }
 
 body {
