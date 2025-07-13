@@ -63,5 +63,5 @@ export const projects = [
 export const aboutMe = {
   name: "Satria Chandra",
   image: "https://i.imgur.com/nuZnpsR.png",
-  aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla. Nulla facilisi. Maecenas pretium tellus ullamcorper laoreet luctus. In egestas dui quam, et pulvinar diam tincidunt nec. Nullam eu cursus leo. Vestibulum dapibus nisl sed faucibus hendrerit."
+  aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla."
 }
