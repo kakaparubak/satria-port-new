@@ -21,7 +21,7 @@ export default function Page() {
 
   return (
   <>
-    <div id="smooth-wrapper">
+    <div id="smooth-wrapper" className="overflow-auto scrollbar-hide">
       <div id="smooth-content"
            className="h-auto text-white"
            style={{ scrollBehavior: "smooth" }}
