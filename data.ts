@@ -15,19 +15,19 @@ export const projects = [
     },
     {
       name: "PESTAPORA 2024",
-      img: "https://i.imgur.com/sjTnyRc_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/xelLqnw.jpg",
       id: "0-1"
     },
     {
       name: "DANGDUT MUSIKAL",
-      img: "https://i.imgur.com/yZtufGM_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/evWq2cN.jpg",
       id: "0-2"
     }
   ],
   [
     {
       name: "GREEN DAY JAKARTA",
-      img: "https://i.imgur.com/PZjk8rj_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/6djFJL7.jpg",
       id: "1-0"
     },
     {
@@ -43,8 +43,8 @@ export const projects = [
   ],
   [
     {
-      name: "MAKARAPRENEUR",
-      img: "https://i.imgur.com/oT2xPqY_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      name: "ENTHUFEST UI 2024",
+      img: "https://i.imgur.com/WYV1vKQ.jpg",
       id: "2-0"
     },
     {

@@ -31,8 +31,8 @@ const covGrace = Covered_By_Your_Grace({
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: "800"
-})
+  weight: ["700", "800"]
+});
 
 export const metadata: Metadata = {
   title: "Satria's Portfolio",
