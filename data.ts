@@ -10,7 +10,7 @@ export const projects = [
   [
     {
       name: "BANK INDONESIA",
-      img: "https://i.imgur.com/xJ7QLGc_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/TmYsw36.png",
       id: "0-0"
     },
     {
@@ -27,34 +27,34 @@ export const projects = [
   [
     {
       name: "GREEN DAY JAKARTA",
-      img: "https://i.imgur.com/6djFJL7.jpg",
+      img: "https://i.imgur.com/qSYjTww.jpg",
       id: "1-0"
     },
     {
       name: "THE CORRS JAKARTA",
-      img: "https://i.imgur.com/wEOqRxD_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/5Iyy0VQ.jpg",
       id: "1-1"
     },
     {
       name: "RAFA DANCE 2025",
-      img: "https://i.imgur.com/ZnnASIj_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/iJNp0a2.jpeg",
       id: "1-2"
     }
   ],
   [
     {
       name: "ENTHUFEST UI 2024",
-      img: "https://i.imgur.com/WYV1vKQ.jpg",
+      img: "https://i.imgur.com/jMLN8ko.jpg",
       id: "2-0"
     },
     {
       name: "OKK UI 2025",
-      img: "https://i.imgur.com/dXvmpao_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/7AEpZhL.jpg",
       id: "2-1"
     },
     {
       name: "PERTA DAYA GAS",
-      img: "https://i.imgur.com/V5RbeLv_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+      img: "https://i.imgur.com/hjSEjyH.jpeg",
       id: "2-2"
     }
   ]

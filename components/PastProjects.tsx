@@ -40,15 +40,15 @@ const PastProjects = () => {
     const projectsArr = projects[Number(id)];
     return (
       <>
-        <span id={projectsArr[0].id} onMouseEnter={() => onHover(projectsArr[0].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[0].name}</span>
-        <span id={projectsArr[1].id} onMouseEnter={() => onHover(projectsArr[1].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[1].name}</span>
-        <span id={projectsArr[2].id} onMouseEnter={() => onHover(projectsArr[2].img)} className="hover:text-white transition-all duration-300 text-nowrap text-shadow-lg">{projectsArr[2].name}</span>
+        <span id={projectsArr[0].id} onMouseEnter={() => onHover(projectsArr[0].img)} className="hover:text-white transition-all duration-300 text-nowrap p-0 m-0">{projectsArr[0].name}</span>
+        <span id={projectsArr[1].id} onMouseEnter={() => onHover(projectsArr[1].img)} className="hover:text-white transition-all duration-300 text-nowrap p-0 m-0">{projectsArr[1].name}</span>
+        <span id={projectsArr[2].id} onMouseEnter={() => onHover(projectsArr[2].img)} className="hover:text-white transition-all duration-300 text-nowrap p-0 m-0">{projectsArr[2].name}</span>
       </>
     )
   }
  
   return (
-    <div className="h-[65svh] bg-radial from-gray-900 to-gray-950 relative flex items-center overflow-hidden">
+    <div className="h-[65svh] bg-radial from-gray-800 to-gray-950 relative flex items-center overflow-hidden">
       <div className="font-poppins sm:font-[700] md:font-[800] lg:font-[800] absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline" data-speed="1.08" style={{ userSelect: "none", paintOrder: "stroke fill" }}>
         <div className='block w-fit'>
           <div id="wrapper1" ref={wrapper1} className="text-stroke-2 text-stroke-white text-transparent text-7xl md:text-8xl lg:text-8xl flex flex-nowrap gap-2 md:gap-4 lg:gap-4 [word-spacing:-0.5rem] md:[word-spacing:-0.25rem] lg:[word-spacing:-0.25rem] p-0 m-0 box-content">
@@ -70,7 +70,7 @@ const PastProjects = () => {
         </div>
       </div>
       <div className='flex justify-center items-center w-screen h-[70%]' data-speed="1.03">
-        <Image src={image} alt='Projects Image' width={1200} height={900} className='h-[90%] md:h-[100%] lg:h-[100%] max-w-[650px] w-[70%] min-w-[300px] object-cover brightness-75 border-0 outline-0 rounded-3xl transition-all shadow-spread shadow-white/50' ref={imageEl}/>
+        <Image src={image} alt='Projects Image' ref={imageEl} width={600} height={400} quality={50} className='h-[90%] md:h-[100%] lg:h-[100%] max-w-[900px] w-[75%] min-w-[300px] object-cover brightness-75 border-0 outline-0 transition-all shadow-2xl' />
       </div>
     </div>
   )
