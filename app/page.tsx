@@ -29,6 +29,7 @@ export default function Page() {
         <Home />
         <PastProjects />
         <AboutMe />
+        <ComingSoon />
       </div>
     </div>
   </>
