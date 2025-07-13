@@ -5,9 +5,9 @@ import { IoMdArrowDown } from "react-icons/io";
 const Home = () => {
 
   return (
-    <div className="h-svh w-screen flex items-center justify-center text-amber-50 bg-radial from-gray-800 to-gray-950 bg-center overflow-hidden">
+    <div className="relative h-svh w-screen flex items-center justify-center text-amber-50 bg-radial from-gray-800 to-gray-950 bg-center overflow-hidden">
       <video
-        className="w-screen h-screen object-cover"
+        className="w-screen h-screen object-cover z-0"
         autoPlay
         muted
         loop
@@ -31,10 +31,10 @@ const Home = () => {
         <ChangingText />
       </div>
       <div className="absolute bottom-10 flex flex-col items-center justify-center">
-        <p className="font-bold font-lexpeta tracking-tight text-gray-200">
+        <p className="font-bold font-lexpeta tracking-tight text-gray-300">
           SCROLL
         </p>
-        <IoMdArrowDown className="text-gray-100" size={30} />
+        <IoMdArrowDown className="text-gray-300" size={30} />
       </div>
     </div>
   );
