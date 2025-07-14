@@ -38,7 +38,13 @@ export default function Page() {
         pinSpacing: false,
         start: "top top",
         end: "+=90%",
-        scrub: 0.3
+        scrub: 0.3,
+        snap: {
+          snapTo: 'labels', // snap to the closest label in the timeline
+			    duration: { min: 0.1, max: 0.5 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+			    delay: 0.05, // wait 0.2 seconds from the last scroll event before doing the snapping
+			    ease: 'sine' // the ease of the snap animation ("power3" by default)
+        }
       }
     })
 
