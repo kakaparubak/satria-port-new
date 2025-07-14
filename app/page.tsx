@@ -6,7 +6,6 @@ import ComingSoon from "@/components/ComingSoon";
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
-import '@/public/circle.png';
 import { useRef } from "react";
 import { PiArrowFatLinesDownFill } from "react-icons/pi"
 
@@ -19,7 +18,7 @@ export default function Page() {
   useGSAP(() => {
 
     ScrollSmoother.create({
-      smooth: 1,
+      smooth: 2,
       effects: true,
       normalizeScroll: true 
     });
