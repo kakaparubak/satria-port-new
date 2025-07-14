@@ -67,7 +67,7 @@ export default function Page() {
         <AboutMe />
         <div className="h-auto w-screen relative -top-3">
           <div ref={transition} className="h-[100svh] w-screen absolute overflow-hidden flex justify-center items-center">
-            <div className="bg-transparent z-50 rounded-full w-[100px] h-[100px] outline-[1000px] outline-black"></div>
+            <div className="bg-transparent z-50 rounded-full w-[100px] h-[100px] outline-[1500px] outline-black"></div>
             <PiArrowFatLinesDownFill id="downArrow" className="absolute text-indigo-900 text-5xl"/>
           </div>
         </div>
