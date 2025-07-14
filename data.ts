@@ -65,3 +65,48 @@ export const aboutMe = {
   image: "https://i.imgur.com/nuZnpsR.png",
   aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla."
 }
+
+export const pastProjects = [
+  {
+    name: "Bank Indonesia",
+    img: "https://i.imgur.com/TmYsw36.png",
+    myRole: "Lighting Designer",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "0"
+  },
+  {
+    name: "Pestapora 2024",
+    img: "https://i.imgur.com/xelLqnw.jpg",
+    myRole: "Lighting Operator",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "1"
+  },
+  {
+    name: "Dangdut Musikal",
+    img: "https://i.imgur.com/evWq2cN.jpg",
+    myRole: "Lighting Programmer",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "2"
+  },
+  {
+    name: "Green Day Jakarta",
+    img: "https://i.imgur.com/8AFMW6F.gif",
+    myRole: "Program Director",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "3"
+  },
+  {
+    name: "The Corrs Jakarta",
+    img: "https://i.imgur.com/5Iyy0VQ.jpg",
+    myRole: "Multicam Switcher",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "4"
+  },
+  {
+    name: "Rafa Dance 2025",
+    img: "https://i.imgur.com/iJNp0a2.jpeg",
+    myRole: "Lighting Designer",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
+    id: "5"
+  },
+]

@@ -26,7 +26,7 @@ const ChangingText = () => {
       <p className="relative text-center font-montserrat text-3xl font-medium tracking-tighter text-white">
         and I am a {" "}
       </p>
-      <div className="md:w-[320px] lg:w-[320px] relative md:-top-5.5 lg:-top-5.5 text-center changing-text flex flex-col justify-center md:items-baseline lg:items-baseline items-center underline underline-offset-4 decoration-2 font-covgrace tracking-wider text-cyan-400 text-4xl">
+      <div className="md:w-[320px] lg:w-[320px] relative md:-top-5.5 lg:-top-5.5 text-center changing-text flex flex-col justify-center md:items-baseline lg:items-baseline items-center underline underline-offset-4 decoration-2 font-covgrace tracking-wider text-indigo-400 text-4xl">
         <p id="top-role" className="opacity-0" ref={topRole}>{roles[index2]}</p>
         <p id="bottom-role" className="opacity-50" ref={bottomRole}>{roles[index1]}</p>
       </div>

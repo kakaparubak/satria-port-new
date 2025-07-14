@@ -53,7 +53,8 @@ export default function RootLayout({
                     ${montserrat.variable} 
                     ${lexpeta.variable}
                     ${poppins.variable}
-                    antialiased`}
+                    antialiased
+                    overflow-hidden`}
       >
         {children}
       </body>
