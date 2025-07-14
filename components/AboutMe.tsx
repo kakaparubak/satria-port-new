@@ -1,10 +1,11 @@
 import Image from "next/image"
 import { aboutMe } from "@/data"
 
+
 const AboutMe = () => {
     return (
-        <div className="relative w-screen h-[100svh] lg:h-[70svh] bg-gradient-to-b from-gray-900 to-black flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-25 text-gray-100">
-            <div className="relative lg:-top-5 w-[275px] h-[275px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] overflow-visible flex justify-center items-center">
+        <div className="relative w-screen h-[100svh] lg:h-[70svh] bg-gradient-to-b from-gray-900 from-50% to-black flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-25 text-gray-100">
+            <div className="relative lg:top-5 w-[275px] h-[275px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] overflow-visible flex justify-center items-center">
                 <Image src={aboutMe.image} alt="My Portrait" width={300} height={300} data-speed="1.06" className="absolute object-cover h-full w-full mask-clip-content rounded-full z-10"/>
                 <div className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] absolute rounded-full bg-radial from-indigo-500/70 via-30% via-indigo-700/40 to-transparent to-65%"></div>
             </div>

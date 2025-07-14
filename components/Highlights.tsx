@@ -8,7 +8,7 @@ import { ClipLoader } from "react-spinners";
 
 gsap.registerPlugin(useGSAP);
 
-const PastProjects = () => {
+const Highlights = () => {
   const wrapper1 = useRef<HTMLDivElement>(null);
   const wrapper2 = useRef<HTMLDivElement>(null);
   const wrapper3 = useRef<HTMLDivElement>(null);
@@ -153,4 +153,4 @@ const PastProjects = () => {
   );
 };
 
-export default PastProjects;
+export default Highlights;
