@@ -70,7 +70,7 @@ export const aboutMe = {
 export const pastProjects = [
   {
     name: "Bank Indonesia",
-    img: ["https://i.imgur.com/TmYsw36.png", "", ""],
+    img: ["https://i.imgur.com/TmYsw36.png", "https://i.imgur.com/O36tt7a.png", "https://i.imgur.com/KL53Szk.png"],
     myRole: "Lighting Designer",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
@@ -79,7 +79,7 @@ export const pastProjects = [
   },
   {
     name: "Pestapora 2024",
-    img: ["https://i.imgur.com/xelLqnw.jpg", "", ""],
+    img: ["https://i.imgur.com/xelLqnw.jpg", "https://i.imgur.com/KI8AvJ5.png", "https://i.imgur.com/jLbyZAn.png"],
     myRole: "Lighting Operator",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
@@ -88,7 +88,7 @@ export const pastProjects = [
   },
   {
     name: "Dangdut Musikal",
-    img: ["https://i.imgur.com/evWq2cN.jpg", "", ""],
+    img: ["https://i.imgur.com/evWq2cN.jpg", "https://i.imgur.com/k2AaQCt.jpeg", "https://i.imgur.com/iQQSJTY.jpeg"],
     myRole: "Lighting Programmer",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
@@ -97,7 +97,7 @@ export const pastProjects = [
   },
   {
     name: "Green Day Jakarta",
-    img: ["https://i.imgur.com/8AFMW6F.gif", "", ""],
+    img: ["https://i.imgur.com/8AFMW6F.gif", "https://i.imgur.com/Vw7lfDx.jpg", "https://i.imgur.com/6djFJL7.jpg"],
     myRole: "Program Director",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
@@ -106,7 +106,7 @@ export const pastProjects = [
   },
   {
     name: "The Corrs Jakarta",
-    img: ["https://i.imgur.com/5Iyy0VQ.jpg", "", ""],
+    img: ["https://i.imgur.com/JHUfH9U.gif", "https://i.imgur.com/5Iyy0VQ.jpg", "https://i.imgur.com/YaetyjP.jpg"],
     myRole: "Multicam Switcher",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
@@ -115,7 +115,7 @@ export const pastProjects = [
   },
   {
     name: "Rafa Dance 2025",
-    img: ["https://i.imgur.com/iJNp0a2.jpeg", "", ""],
+    img: ["https://i.imgur.com/iJNp0a2.jpeg", "https://i.imgur.com/igfE3PB.png", "https://i.imgur.com/8Bq9FfS.gif"],
     myRole: "Lighting Designer",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
