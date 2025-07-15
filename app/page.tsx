@@ -4,24 +4,18 @@ import Highlights from "@/components/Highlights";
 import AboutMe from "@/components/AboutMe";
 import PastProjects from "@/components/PastProjects";
 import ComingSoon from "@/components/ComingSoon";
-import Image from "next/image";
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { FaArrowDown } from "react-icons/fa";
-import { RiCloseFill } from "react-icons/ri";
-import { pastProjects } from "@/data";
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
 export default function Page() {
 
   const transition = useRef<HTMLDivElement>(null);
-  const modal = useRef<HTMLDialogElement>(null);
   const mainElement = useRef<HTMLDivElement>(null);
-  const [modalInfo, setModalInfo] = useState({name:"Title", role:"Role", img: "/images/placeholderimg.svg", about:"About"});
-  const [isModalOpen, setIsModalOpen] = useState(false);
   
   useGSAP(() => {
 
@@ -69,24 +63,6 @@ export default function Page() {
                .fromTo("#downArrow", {y: 0}, {y: 100})
   });
 
-  const handleProjectClick = (id: string) => {
-    const currentProject = pastProjects.find((current) => current.id == id);
-    if (!currentProject) {
-      return;
-    }
-    setModalInfo({name: currentProject?.name, role: currentProject?.myRole, about: currentProject?.about, img: currentProject?.img});
-    modal.current?.showModal();
-    setIsModalOpen(true);
-  }
-
-  const handleModalClose = () => {
-    if (!modal.current) {
-      return;
-    }
-    setIsModalOpen(false);
-    modal.current?.close();
-  }
-
   return (
   <>
     <div ref={mainElement} id="smooth-wrapper" className="overflow-auto scrollbar-hide">
@@ -103,19 +79,10 @@ export default function Page() {
             <FaArrowDown id="downArrow" className="absolute text-indigo-900 text-5xl"/>
           </div>
         </div>
-        <PastProjects onProjectClick={(id) => handleProjectClick(id)} />
+        <PastProjects />
         <ComingSoon />
       </div>
     </div>
-    <dialog ref={modal} className="h-[100vh] w-[100vw] max-h-screen max-w-screen justify-center items-center m-0 p-0 fixed backdrop-blur-lg bg-black/40 z-50 box-border" style={{display: isModalOpen ? "flex" : "none"}}>
-      <RiCloseFill onClick={handleModalClose} className="absolute top-8 right-8 text-4xl text-white stroke-2 cursor-pointer"/>
-      <div className="bg-gray-100 w-[80%] md:w-2/4 lg:w-[550px] p-8 md:p-10 lg:p-10 shadow-2xl">
-        <Image src={modalInfo.img} width="400" height="400" alt="Project Image" className="w-full aspect-square object-cover" />
-        <h2 className="font-bold font-poppins text-4xl mt-5">{modalInfo.name}</h2>
-        <h3 className="font-semibold font-montserrat text-2xl mt-3">{modalInfo.role}</h3>
-        <p className="font-medium font-sans text-lg mt-1.5 pb-3">{modalInfo.about}</p>
-      </div>
-    </dialog>
   </>
   );
 }
