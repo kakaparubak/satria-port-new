@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Covered_By_Your_Grace, Montserrat, Lexend_Peta, Poppins } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Covered_By_Your_Grace,
+  Montserrat,
+  Lexend_Peta,
+  Poppins,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,24 +21,24 @@ const geistMono = Geist_Mono({
 
 const lexpeta = Lexend_Peta({
   variable: "--font-lexpeta",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 const covGrace = Covered_By_Your_Grace({
   variable: "--font-covgrace",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 });
 
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["700", "800"]
+  weight: ["700", "800"],
 });
 
 export const metadata: Metadata = {
