@@ -2,6 +2,7 @@ import { pastProjects } from "@/data";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Image from "next/image";
 
 gsap.registerPlugin(useGSAP);
 
@@ -215,22 +216,26 @@ const PastProjects = () => {
                   </p>
                 </div>
               </div>
-              <img
+              <Image
                 id={`tile-${current.id}-img1`}
                 alt=""
                 key={`tile-${current.id}-img1`}
                 src={
                   current.img[1] ? current.img[1] : "/images/placeholderimg.svg"
                 }
+                width={280}
+                height={280}
                 className="absolute -translate-z-[300px] -z-10 aspect-square w-[80%] shadow-xl shadow-black/30 object-cover"
               />
-              <img
+              <Image
                 id={`tile-${current.id}-img2`}
                 alt=""
                 key={`tile-${current.id}-img2`}
                 src={
                   current.img[2] ? current.img[2] : "/images/placeholderimg.svg"
                 }
+                width={280}
+                height={280}
                 className="absolute -translate-z-[300px] -z-20 aspect-square w-[80%] shadow-xl shadow-black/30 object-cover"
               />
             </div>
