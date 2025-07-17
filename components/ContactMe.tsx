@@ -40,19 +40,19 @@ const ContactMe = () => {
           </h1>
           <div className="font-poppins tracking-tight text-3xl md:text-5xl lg:text-7xl text-white flex justify-center items-center gap-3 underline underline-offset-0 decoration-0 decoration-transparent hover:decoration-4 hover:scale-105 hover:underline hover:underline-offset-4 hover:decoration-amber-300 transition-all w-full">
             <a
-              href="mailto:satriachandra@gmail.com"
+              href="mailto:contact@satriachandra.com"
               target="_blank"
               className="break-all"
             >
-              SATRIACHANDRA@GMAIL.COM
+              CONTACT@SATRIACHANDRA.COM
             </a>
             <RxArrowBottomRight className="" />
           </div>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between mt-4 gap-2 md:gap-0 lg:gap-0 text-lg md:text-xl lg:text-2xl">
             <div className="flex gap-2 justify-center items-center hover:scale-105 transition-all">
               <FaWhatsapp />
-              <a href="https://wa.me/6281317381190" target="_blank">
-                +62 813 1738 1190
+              <a href="https://wa.me/6287780008482" target="_blank">
+                +62 877-8000-8482
               </a>
             </div>
             <div className="flex gap-2 justify-center items-center hover:scale-105 transition-all">
