@@ -162,11 +162,11 @@ const PastProjects = () => {
   };
 
   return (
-    <div className="h-auto w-screen bg-white flex flex-col justify-baseline pb-8 items-center relative -z-10">
+    <div className="h-auto w-screen bg-gray-200 flex flex-col justify-baseline pb-40 items-center relative -z-10">
       <h1 className="mt-[100svh] font-poppins font-extrabold text-black text-center px-4 text-5xl md:text-6xl lg:text-7xl tracking-tight">
         PAST PROJECTS
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-5 gap-y-5 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-5 gap-y-5 mt-8" data-speed="1.07">
         {pastProjects.map((current) => {
           return (
             <div

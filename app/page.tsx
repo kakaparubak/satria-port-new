@@ -3,7 +3,7 @@ import Home from "@/components/Home";
 import Highlights from "@/components/Highlights";
 import AboutMe from "@/components/AboutMe";
 import PastProjects from "@/components/PastProjects";
-import ComingSoon from "@/components/ComingSoon";
+import ContactMe from "@/components/ContactMe";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
@@ -102,7 +102,7 @@ export default function Page() {
             </div>
           </div>
           <PastProjects />
-          <ComingSoon />
+          <ContactMe />
         </div>
       </div>
     </>
