@@ -94,7 +94,7 @@ export default function Page() {
     gsap.fromTo(
       menuElement.current,
       { xPercent: 100 },
-      { xPercent: 0, ease: "power1.out", duration: 0.75 }
+      { xPercent: 0, ease: "power1.out", duration: 0.5 }
     );
   };
 
@@ -103,7 +103,7 @@ export default function Page() {
       .fromTo(
         menuElement.current,
         { xPercent: 0 },
-        { xPercent: 100, ease: "power1.in", duration: 0.75 }
+        { xPercent: 100, ease: "power1.in", duration: 0.5 }
       )
       .then(() => setIsMenuOpen(false))
       .then(() => setMenuDisplay("none"));
@@ -155,7 +155,7 @@ export default function Page() {
       <div
         ref={menuElement}
         style={{ display: menuDisplay }}
-        className="fixed w-screen md:w-[50vw] lg:w-[33vw] h-screen bg-gray-950/90 top-0 right-0 backdrop-blur-lg justify-center items-center"
+        className="fixed w-screen md:w-[50vw] lg:w-[25vw] h-screen bg-gray-950/90 top-0 right-0 backdrop-blur-lg justify-center items-center"
       >
         <div className="flex flex-col justify-center items-baseline text-3xl font-montserrat font-semibold tracking-tight gap-4 w-4/5" style={{userSelect: "none"}}>
           <p
