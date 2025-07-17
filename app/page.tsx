@@ -10,6 +10,7 @@ import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import { useRef, useState } from "react";
 import { FaArrowDown } from "react-icons/fa";
 import { PiHamburger } from "react-icons/pi";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
@@ -188,6 +189,7 @@ export default function Page() {
           <hr className="text-gray-500 h-1 w-full"></hr>
         </div>
       </div>
+      <SpeedInsights />
     </>
   );
 }
