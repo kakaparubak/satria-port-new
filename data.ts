@@ -71,7 +71,7 @@ export const pastProjects = [
   {
     name: "Bank Indonesia",
     img: ["https://i.imgur.com/TmYsw36.png", "https://i.imgur.com/O36tt7a.png", "https://i.imgur.com/KL53Szk.png"],
-    myRole: "Lighting Designer",
+    myRole: "Lighting Operator",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
     direction: 1,
@@ -98,7 +98,7 @@ export const pastProjects = [
   {
     name: "Green Day Jakarta",
     img: ["https://i.imgur.com/8AFMW6F.gif", "https://i.imgur.com/Vw7lfDx.jpg", "https://i.imgur.com/6djFJL7.jpg"],
-    myRole: "Program Director",
+    myRole: "Lighting Programmer",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
     direction: -1,
@@ -107,7 +107,7 @@ export const pastProjects = [
   {
     name: "The Corrs Jakarta",
     img: ["https://i.imgur.com/JHUfH9U.gif", "https://i.imgur.com/5Iyy0VQ.jpg", "https://i.imgur.com/YaetyjP.jpg"],
-    myRole: "Multicam Switcher",
+    myRole: "Lighting Programmer",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis urna nec metus volutpat porttitor. Etiam a tortor nulla.",
     direction: 1,
