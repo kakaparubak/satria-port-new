@@ -19,7 +19,7 @@ export default function Page() {
   useGSAP(() => {
     ScrollSmoother.create({
       smooth: 2,
-      smoothTouch: 0,
+      smoothTouch: 0.1,
       effects: true,
       normalizeScroll: true,
     });
@@ -81,7 +81,7 @@ export default function Page() {
       <div
         ref={mainElement}
         id="smooth-wrapper"
-        className="overflow-auto scrollbar-hide"
+        className="overflow-auto scrollbar-hide overflow-x-hidden"
       >
         <div
           id="smooth-content"
@@ -94,7 +94,7 @@ export default function Page() {
           <div className="w-screen relative -top-3 z-20">
             <div
               ref={transition}
-              className="h-[100svh] w-screen absolute overflow-hidden flex justify-center items-center"
+              className="h-[100lvh] w-screen absolute overflow-hidden flex justify-center items-center"
             >
               <div className="bg-transparent z-50 rounded-full w-[100px] h-[100px] outline-[1500px] outline-black"></div>
               <FaArrowDown
@@ -107,7 +107,7 @@ export default function Page() {
           <ContactMe />
         </div>
       </div>
-      <div className="fixed top-4 right-4">
+      <div className="fixed top-4 right-4 z-50">
         halo
       </div>
     </>
