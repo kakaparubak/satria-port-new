@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { RefObject, useRef, useState } from "react";
 import { projects } from "@/data";
-import Image from "next/image";
 import { ClipLoader } from "react-spinners";
 import { ScriptProps } from "next/script";
 
@@ -138,13 +137,12 @@ const Highlights = (props: ScriptProps) => {
             className="absolute z-10"
           />
         )}
-        <Image
+        <img
           src={image}
           alt="Projects Image"
           ref={imageEl}
           width={600}
           height={400}
-          quality={50}
           onLoad={() => setIsLoaded(true)}
           onLoadStart={() => setIsLoaded(false)}
           className="h-[90%] md:h-[100%] lg:h-[100%] max-w-[900px] w-[75%] min-w-[300px] object-cover brightness-75 border-0 outline-0 transition-all shadow-spread shadow-black"

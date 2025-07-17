@@ -2,7 +2,6 @@ import { pastProjects } from "@/data";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import Image from "next/image";
 import { ScriptProps } from "next/script";
 
 gsap.registerPlugin(useGSAP);
@@ -218,7 +217,7 @@ const PastProjects = (props: ScriptProps) => {
                   </p>
                 </div>
               </div>
-              <Image
+              <img
                 id={`tile-${current.id}-img1`}
                 alt=""
                 key={`tile-${current.id}-img1`}
@@ -229,7 +228,7 @@ const PastProjects = (props: ScriptProps) => {
                 height={280}
                 className="absolute -translate-z-[300px] -z-10 aspect-square w-[80%] shadow-xl shadow-black/30 object-cover"
               />
-              <Image
+              <img
                 id={`tile-${current.id}-img2`}
                 alt=""
                 key={`tile-${current.id}-img2`}
