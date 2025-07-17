@@ -5,10 +5,11 @@ import { RefObject, useRef, useState } from "react";
 import { projects } from "@/data";
 import Image from "next/image";
 import { ClipLoader } from "react-spinners";
+import { ScriptProps } from "next/script";
 
 gsap.registerPlugin(useGSAP);
 
-const Highlights = () => {
+const Highlights = (props: ScriptProps) => {
   const wrapper1 = useRef<HTMLDivElement>(null);
   const wrapper2 = useRef<HTMLDivElement>(null);
   const wrapper3 = useRef<HTMLDivElement>(null);
@@ -95,7 +96,7 @@ const Highlights = () => {
   };
 
   return (
-    <div className="h-[65svh] bg-gradient-to-b from-gray-950 via-indigo-950 to-gray-900 relative flex items-center overflow-hidden">
+    <div id={props.id} className="h-[65svh] bg-gradient-to-b from-gray-950 via-indigo-950 to-gray-900 relative flex items-center overflow-hidden">
       <div
         className="font-poppins sm:font-[700] md:font-[800] lg:font-[800] absolute tracking-tightest transition cursor-default z-30 flex flex-col items-baseline justify-baseline"
         data-speed="1.08"

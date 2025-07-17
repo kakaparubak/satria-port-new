@@ -7,14 +7,18 @@ import ContactMe from "@/components/ContactMe";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { FaArrowDown } from "react-icons/fa";
+import { PiHamburger } from "react-icons/pi";
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
 export default function Page() {
   const transition = useRef<HTMLDivElement>(null);
   const mainElement = useRef<HTMLDivElement>(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [menuDisplay, setMenuDisplay] = useState("none");
+  const menuElement = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
     ScrollSmoother.create({
@@ -76,6 +80,41 @@ export default function Page() {
     downArrowTL.addLabel("start").fromTo("#downArrow", { y: 0 }, { y: 100 });
   });
 
+  const handleMenuClick = () => {
+    if (!isMenuOpen) {
+      handleOpenMenu();
+    } else {
+      handleCloseMenu();
+    }
+  };
+
+  const handleOpenMenu = () => {
+    setIsMenuOpen(true);
+    setMenuDisplay("flex");
+    gsap.fromTo(
+      menuElement.current,
+      { xPercent: 100 },
+      { xPercent: 0, ease: "power1.out", duration: 0.75 }
+    );
+  };
+
+  const handleCloseMenu = () => {
+    gsap
+      .fromTo(
+        menuElement.current,
+        { xPercent: 0 },
+        { xPercent: 100, ease: "power1.in", duration: 0.75 }
+      )
+      .then(() => setIsMenuOpen(false))
+      .then(() => setMenuDisplay("none"));
+  };
+
+  const handleLinkClick = (componentId: string) => {
+    handleCloseMenu();
+    const smooth = ScrollSmoother.get();
+    smooth?.scrollTo(`#${componentId}`, true);
+  };
+
   return (
     <>
       <div
@@ -89,8 +128,8 @@ export default function Page() {
           style={{ scrollBehavior: "smooth" }}
         >
           <Home />
-          <Highlights />
-          <AboutMe />
+          <Highlights id="highlights" />
+          <AboutMe id="aboutMe" />
           <div className="w-screen relative -top-3 z-20">
             <div
               ref={transition}
@@ -103,12 +142,51 @@ export default function Page() {
               />
             </div>
           </div>
-          <PastProjects />
-          <ContactMe />
+          <PastProjects id="pastProjects" />
+          <ContactMe id="contactMe" />
         </div>
       </div>
-      <div className="fixed top-4 right-4 z-50">
-        halo
+      <div className="fixed top-6 md:top-8 lg:top-10 right-6 md:right-10 lg:right-12 z-50">
+        <PiHamburger
+          className=" text-4xl md:text-5xl lg:text-5xl text-indigo-500 hover:scale-110 transition-all"
+          onClick={handleMenuClick}
+        />
+      </div>
+      <div
+        ref={menuElement}
+        style={{ display: menuDisplay }}
+        className="fixed w-screen md:w-[50vw] lg:w-[33vw] h-screen bg-gray-950/90 top-0 right-0 backdrop-blur-lg justify-center items-center"
+      >
+        <div className="flex flex-col justify-center items-baseline text-3xl font-montserrat font-semibold tracking-tight gap-4 w-4/5" style={{userSelect: "none"}}>
+          <p
+            className="hover:scale-105 hover:text-indigo-200 transition-all cursor-pointer"
+            onClick={() => handleLinkClick("highlights")}
+          >
+            Highlights
+          </p>
+          <hr className="text-gray-500 h-1 w-full"></hr>
+          <p
+            className="hover:scale-105 hover:text-indigo-200 transition-all cursor-pointer"
+            onClick={() => handleLinkClick("aboutMe")}
+          >
+            About Me
+          </p>
+          <hr className="text-gray-500 h-1 w-full"></hr>
+          <p
+            className="hover:scale-105 hover:text-indigo-200 transition-all cursor-pointer"
+            onClick={() => handleLinkClick("pastProjects")}
+          >
+            Past Projects
+          </p>
+          <hr className="text-gray-500 h-1 w-full"></hr>
+          <p
+            className="hover:scale-105 hover:text-indigo-200 transition-all cursor-pointer"
+            onClick={() => handleLinkClick("contactMe")}
+          >
+            Contact
+          </p>
+          <hr className="text-gray-500 h-1 w-full"></hr>
+        </div>
       </div>
     </>
   );
