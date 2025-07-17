@@ -21,8 +21,8 @@ const ContactMe = () => {
   });
 
   return (
-    <div className="relative">
-      <div className="block w-fit absolute -top-12 z-20">
+    <div className="relative overflow-hidden">
+      <div className="block w-fit absolute -top-3 z-50">
         <div
           ref={marquee}
           className="font-semibold text-neutral-800 text-8xl md:text-8xl lg:text-8xl flex flex-nowrap gap-2 md:gap-4 lg:gap-4 [word-spacing:-0.5rem] md:[word-spacing:-0.25rem] lg:[word-spacing:-0.25rem] p-0 m-0 box-content"

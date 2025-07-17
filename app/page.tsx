@@ -19,6 +19,7 @@ export default function Page() {
   useGSAP(() => {
     ScrollSmoother.create({
       smooth: 2,
+      smoothTouch: 0,
       effects: true,
       normalizeScroll: true,
     });
@@ -26,6 +27,7 @@ export default function Page() {
     const timeLine = gsap.timeline({
       scrollTrigger: {
         trigger: transition.current,
+        anticipatePin: 1,
         pin: true,
         pinSpacing: false,
         start: "top top",
@@ -89,7 +91,7 @@ export default function Page() {
           <Home />
           <Highlights />
           <AboutMe />
-          <div className="h-auto w-screen relative -top-3">
+          <div className="w-screen relative -top-3 z-20">
             <div
               ref={transition}
               className="h-[100svh] w-screen absolute overflow-hidden flex justify-center items-center"
@@ -104,6 +106,9 @@ export default function Page() {
           <PastProjects />
           <ContactMe />
         </div>
+      </div>
+      <div className="fixed top-4 right-4">
+        halo
       </div>
     </>
   );
