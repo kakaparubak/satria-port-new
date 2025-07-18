@@ -1,12 +1,20 @@
-"use client"
+"use client";
+import { useEffect, useRef } from "react";
 import ChangingText from "./elements/ChangingText";
 import { IoMdArrowDown } from "react-icons/io";
 
 const Home = () => {
+  const videoElement = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    if (videoElement.current) {
+      videoElement.current.defaultMuted = true;
+    }
+  });
 
   return (
     <div className="relative h-svh w-screen flex items-center justify-center text-amber-50 bg-radial from-gray-800 to-gray-950 bg-center overflow-hidden">
       <video
+        ref={videoElement}
         className="w-screen h-screen object-cover z-0"
         autoPlay
         muted
