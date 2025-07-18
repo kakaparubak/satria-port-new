@@ -15,7 +15,7 @@ const Home = () => {
       >
         <source
           src="https://pub-d15191339994413ea97910d3f097f601.r2.dev/highlights.mp4"
-          type="video/mp4"
+          type='video/mp4; codecs="avc1, aac"'
         ></source>
       </video>
       <div className="absolute flex justify-center items-center flex-col">
