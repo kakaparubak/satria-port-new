@@ -15,7 +15,7 @@ const Home = () => {
         data-speed="0.75"
       >
         <source
-          src="https://pub-d15191339994413ea97910d3f097f601.r2.dev/Highlights%202.mp4"
+          src="https://imgur.com/jz8Jowc.mp4"
           type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
         ></source>
       </video>
