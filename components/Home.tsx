@@ -15,7 +15,7 @@ const Home = () => {
         data-speed="0.75"
       >
         <source
-          src="https://imgur.com/jz8Jowc.mp4"
+          src="https://cdn.discordapp.com/attachments/1393860282329337856/1396007385876664422/Highlights_2_1.mp4?ex=687c84b1&is=687b3331&hm=7dbf46883d4c83a6467e38f6ed6540f82e56cfc4c3ea0698109635ada019a19c&"
           type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
         ></source>
       </video>
