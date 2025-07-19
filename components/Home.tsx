@@ -7,6 +7,7 @@ const Home = () => {
       <video
         className="w-screen h-screen object-cover z-0 brightness-20"
         autoPlay
+        preload="auto"
         muted
         loop
         playsInline
@@ -14,8 +15,8 @@ const Home = () => {
         data-speed="0.75"
       >
         <source
-          src="https://pub-d15191339994413ea97910d3f097f601.r2.dev/highlights.mp4"
-          type='video/mp4; codecs="avc1, aac"'
+          src="https://pub-d15191339994413ea97910d3f097f601.r2.dev/Highlights%202.mp4"
+          type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
         ></source>
       </video>
       <div className="absolute flex justify-center items-center flex-col">
