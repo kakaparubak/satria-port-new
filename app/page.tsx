@@ -22,12 +22,14 @@ export default function Page() {
   const menuElement = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
-    ScrollSmoother.create({
-      smooth: 2,
-      smoothTouch: 0.1,
-      effects: true,
-      normalizeScroll: true,
-    });
+    if (ScrollTrigger.isTouch !== 1) {
+      ScrollSmoother.create({
+        smooth: 2,
+        smoothTouch: 0,
+        effects: true,
+        normalizeScroll: true,
+      });
+    }
 
     const timeLine = gsap.timeline({
       scrollTrigger: {
