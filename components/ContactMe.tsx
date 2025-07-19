@@ -35,7 +35,7 @@ const ContactMe = (props: ScriptProps) => {
         </div>
       </div>
       <div className="h-screen w-screen bg-radial-[circle_at_50%_0%] from-indigo-500 via-indigo-300 to-indigo-600 from-10% via-55% to-100% relative flex flex-col justify-center items-baseline md:items-center lg:items-center grid-cols-2 text-white font-sans p-5 md:p-10 lg:p-10">
-        <div data-speed="1.1">
+        <div data-speed={window.innerWidth < 768 ? "1" : "1.1"}>
           <h1 className="top-10 font-sans font-medium text-xl md:text-3xl lg:text-4xl pb-3 md:pb-0 lg:pb-0 italic">
             Let&apos;s get in touch!
           </h1>

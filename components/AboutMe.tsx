@@ -11,7 +11,7 @@ const AboutMe = (props: ScriptProps) => {
           alt="My Portrait"
           width={300}
           height={300}
-          data-speed="1.06"
+          data-speed={window.innerWidth < 768 ? "1" : "1.06"}
           className="object-bottom absolute object-cover h-full w-full mask-clip-content rounded-full mask-radial-at-center mask-radial-from-57% mask-radial-to-70% z-10"
         />
         <div className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] absolute rounded-full bg-radial from-indigo-500/70 via-30% via-indigo-700/40 to-transparent to-65%"></div>
