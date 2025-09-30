@@ -26,8 +26,12 @@ const AboutMe = (props: ScriptProps) => {
             {aboutMe.name}
           </span>
         </h3>
-        <p className="mt-2 text-lg md:text-xl lg:text-xl font-sans">
-          {aboutMe.aboutme}
+        <hr className="mt-4 text-indigo-300" />
+        <p className="mt-4 text-lg md:text-xl lg:text-xl font-sans">
+          {aboutMe.aboutme1}
+        </p>
+        <p className="mt-5 text-lg md:text-xl lg:text-xl font-sans">
+          {aboutMe.aboutme2}
         </p>
       </div>
     </div>

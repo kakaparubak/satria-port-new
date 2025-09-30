@@ -165,7 +165,7 @@ const PastProjects = (props: ScriptProps) => {
   return (
     <div className="h-auto w-screen bg-gray-200 flex flex-col justify-baseline pb-40 items-center relative z-10">
       <h1 id={props.id} className="mt-[100svh] font-poppins font-extrabold text-black text-center px-4 text-5xl md:text-6xl lg:text-7xl tracking-tight">
-        PAST PROJECTS
+        MY PROJECTS
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-5 gap-y-5 mt-8">
         {pastProjects.map((current) => {
@@ -206,13 +206,13 @@ const PastProjects = (props: ScriptProps) => {
                   ref={projectTileBack}
                   className="absolute z-0 bg-blue-950 text-white cursor-pointer w-[350px] h-[350px] p-3 transition-all hidden flex-col justify-baseline items-baseline shadow-xl shadow-black/30"
                 >
-                  <h3 className="font-bold font-poppins pt-3 pb-3 px-4 text-3xl underline decoration-amber-300 underline-offset-4">
+                  <h3 className="font-bold font-poppins pt-3 pb-2 px-4 text-3xl underline decoration-amber-300 underline-offset-4">
                     {current.name}
                   </h3>
-                  <p className="font-semibold font-sans px-4 pb-2 text-xl">
+                  <p className="font-semibold font-sans px-4 pb-1 text-xl">
                     {current.myRole}
                   </p>
-                  <p className="font-semibold font-sans px-4 pt-2 text-lg">
+                  <p className="font-semibold font-sans px-4 pt-1 text-md">
                     {current.about}
                   </p>
                 </div>

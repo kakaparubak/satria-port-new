@@ -11,6 +11,7 @@ import { useRef, useState } from "react";
 import { FaArrowDown } from "react-icons/fa";
 import { PiHamburger } from "react-icons/pi";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import MoreProjects from "@/components/MoreProjects";
 
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
@@ -146,6 +147,7 @@ export default function Page() {
             </div>
           </div>
           <PastProjects id="pastProjects" />
+          <MoreProjects />
           <ContactMe id="contactMe" />
         </div>
       </div>
