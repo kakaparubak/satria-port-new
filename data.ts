@@ -86,7 +86,7 @@ export const pastProjects = [
   {
     name: "Dangdut Musikal (FMI 2024)",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0021.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/20241026_122556.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0029.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/20241026_191343.jpg",
     ],
@@ -112,7 +112,7 @@ export const pastProjects = [
   {
     name: "Endgame Townhall 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_084212(0)%20(1).jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_084212.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_075506.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/Plot.png",
     ],
@@ -125,7 +125,7 @@ export const pastProjects = [
   {
     name: "Konser Jumbo 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250817_163733_1%20(1).gif",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/jumbogif.gif",
       "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250814_035541(0).jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250817_163628.jpg",
     ],
@@ -164,7 +164,7 @@ export const pastProjects = [
   {
     name: "Muse in Jakarta 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250919_205313_1(1).jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250918_185721.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0019.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0031.jpg",
     ],
