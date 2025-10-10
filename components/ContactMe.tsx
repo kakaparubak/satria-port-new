@@ -22,7 +22,7 @@ const ContactMe = (props: ScriptProps) => {
   });
 
   return (
-    <div id={props.id} className="relative overflow-hidden">
+    <div id={props.id} className="relative overflow-hidden -translate-y-0.5">
       <div className="block w-fit absolute -top-3 z-50">
         <div
           ref={marquee}
