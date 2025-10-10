@@ -74,7 +74,7 @@ export const pastProjects = [
     name: "Pestapora 2024",
     img: [
       "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240920_153138.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/IMG-20240920-WA0010.jpeg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240920_153125.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240923_012917.jpg",
     ],
     myRole: "Lighting Operator",
@@ -86,11 +86,11 @@ export const pastProjects = [
   {
     name: "Dangdut Musikal (FMI 2024)",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/20241026_122556.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0029.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/20241026_122556.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0027.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/20241026_191343.jpg",
     ],
-    myRole: "Ast. Lighting Programmer",
+    myRole: "Lighting Programmer",
     about:
       "Marked my first involvement in a theatrical musical production. It was a defining experience that expanded my understanding of stagecraft and visual storytelling. Grateful to Rifky Akmal and Aulion for the trust and opportunity to be part of this amazing show.",
     direction: -1,

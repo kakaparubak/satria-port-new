@@ -10,7 +10,7 @@ const MoreProjects = () => {
         {moreProjects.map((project, index) => (
           <div
             key={index}
-            className="border border-gray-300 bg-indigo-300 p-6 flex justify-center flex-col items-center shadow-2xl shadow-neutral-400"
+            className="border border-gray-300 bg-white p-6 flex justify-center flex-col items-center shadow-2xl shadow-neutral-400"
           >
             <h3 className="font-semibold text-2xl text-center">{project.name}</h3>
             <p className="text-sm text-center text-gray-500">{project.as}</p>
