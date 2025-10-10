@@ -174,6 +174,32 @@ export const pastProjects = [
     direction: -1,
     id: "7",
   },
+  {
+    name: "Foo Fighters in Jakarta 2025",
+    img: [
+      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20251002_225438.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20251001_235500.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20250930_001204.jpg",
+    ],
+    myRole: "Lighting Programmer",
+    about:
+      "Lorem ipsum dolor sit amet.",
+    direction: 1,
+    id: "8",
+  },
+  {
+    name: "Synchronize 2025 - Jakarta Movin",
+    img: [
+      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/20251004_221951.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/20251003_232255.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/IMG_20251004_154639_513.webp",
+    ],
+    myRole: "Lighting Designer",
+    about:
+      "Lorem ipsum dolor sit amet.",
+    direction: -1,
+    id: "9",
+  },
 ];
 
 export const moreProjects = [
