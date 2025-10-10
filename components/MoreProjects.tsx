@@ -2,7 +2,7 @@ import { moreProjects } from "@/data";
 
 const MoreProjects = () => {
   return (
-    <div className="bg-gray-200 text-black w-screen h-auto flex flex-col justify-center items-center pb-40 relative z-10">
+    <div className="bg-gray-200 text-black w-screen h-auto flex flex-col justify-center items-center pb-40 relative -translate-y-1 z-10">
       <h2 className="font-bold font-poppins pt-3 pb-8 px-4 text-5xl underline decoration-amber-300 underline-offset-4">
         More Projects
       </h2>
