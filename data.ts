@@ -203,19 +203,19 @@ export const pastProjects = [
 ];
 
 export const moreProjects = [
-  { name: "OKK UI 2024", as: "Program Director" },
-  { name: "Enthufest UI 2024", as: "Program Director" },
-  { name: "Perta Daya Gas", as: "Visual Jockey" },
-  { name: "Normatif Showcase", as: "Switcher" },
   {
     name: "Bank Indonesia Annual Investment Forum 2024",
     as: "Lighting Operator",
   },
   { name: "Bank Indonesia Peluncuran LPI 2024", as: "Lighting Operator" },
-  { name: "Makarapreneur HIPMI PT UI 2024", as: "Switcher & Live Streaming" },
-  { name: "Super Millage Vehicle UI 2024", as: "Switcher & Live Streaming" },
   {
     name: "UI Innovation War (Business Case)",
     as: "Vice Project Officer - Technical Director",
   },
+  { name: "OKK UI 2024", as: "Program Director" },
+  { name: "Enthufest UI 2024", as: "Program Director" },
+  { name: "Perta Daya Gas", as: "Visual Jockey" },
+  { name: "Normatif Showcase", as: "Switcher" },
+  { name: "Makarapreneur HIPMI PT UI 2024", as: "Switcher & Live Streaming" },
+  { name: "Super Millage Vehicle UI 2024", as: "Switcher & Live Streaming" },
 ];
