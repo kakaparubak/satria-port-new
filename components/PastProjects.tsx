@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { pastProjects } from "@/data";
 import { useRef, useState } from "react";
 import gsap from "gsap";
