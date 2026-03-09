@@ -74,7 +74,7 @@ export const pastProjects = [
     name: "Pestapora 2024",
     img: [
       "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240920_153138.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240920_153125.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/IMG-20240920-WA0010.jpeg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Pestapora%202024/20240923_012917.jpg",
     ],
     myRole: "Lighting Operator",
@@ -86,11 +86,11 @@ export const pastProjects = [
   {
     name: "Dangdut Musikal (FMI 2024)",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/20241026_122556.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0027.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0021.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/IMG-20241026-WA0029.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Dangdut%20Musikal%20(FMI%202024)/20241026_191343.jpg",
     ],
-    myRole: "Lighting Programmer",
+    myRole: "Ast. Lighting Programmer",
     about:
       "Marked my first involvement in a theatrical musical production. It was a defining experience that expanded my understanding of stagecraft and visual storytelling. Grateful to Rifky Akmal and Aulion for the trust and opportunity to be part of this amazing show.",
     direction: -1,
@@ -112,7 +112,7 @@ export const pastProjects = [
   {
     name: "Endgame Townhall 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_084212.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_084212(0)%20(1).jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/20250920_075506.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Endgame%20Townhall/Plot.png",
     ],
@@ -125,7 +125,7 @@ export const pastProjects = [
   {
     name: "Konser Jumbo 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/jumbogif.gif",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250817_163733_1%20(1).gif",
       "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250814_035541(0).jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Konser%20Jumbo/20250817_163628.jpg",
     ],
@@ -164,7 +164,7 @@ export const pastProjects = [
   {
     name: "Muse in Jakarta 2025",
     img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250918_185721.jpg",
+      "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250919_205313_1(1).jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0019.jpg",
       "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0031.jpg",
     ],
@@ -174,48 +174,22 @@ export const pastProjects = [
     direction: -1,
     id: "7",
   },
-  {
-    name: "Foo Fighters in Jakarta 2025",
-    img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20251002_225438.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20251001_235500.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/FOO/20250930_001204.jpg",
-    ],
-    myRole: "Lighting Programmer",
-    about:
-      "Lorem ipsum dolor sit amet.",
-    direction: 1,
-    id: "8",
-  },
-  {
-    name: "Synchronize 2025 - Jakarta Movin",
-    img: [
-      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/20251004_221951.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/20251003_232255.jpg",
-      "https://file.garden/aNi2Brn6tHaGaMz9/Syncro/IMG_20251004_154639_513.webp",
-    ],
-    myRole: "Lighting Designer",
-    about:
-      "Lorem ipsum dolor sit amet.",
-    direction: -1,
-    id: "9",
-  },
 ];
 
 export const moreProjects = [
+  { name: "OKK UI 2024", as: "Program Director" },
+  { name: "Enthufest UI 2024", as: "Program Director" },
+  { name: "Perta Daya Gas", as: "Visual Jockey" },
+  { name: "Normatif Showcase", as: "Switcher" },
   {
     name: "Bank Indonesia Annual Investment Forum 2024",
     as: "Lighting Operator",
   },
   { name: "Bank Indonesia Peluncuran LPI 2024", as: "Lighting Operator" },
+  { name: "Makarapreneur HIPMI PT UI 2024", as: "Switcher & Live Streaming" },
+  { name: "Super Millage Vehicle UI 2024", as: "Switcher & Live Streaming" },
   {
     name: "UI Innovation War (Business Case)",
     as: "Vice Project Officer - Technical Director",
   },
-  { name: "OKK UI 2024", as: "Program Director" },
-  { name: "Enthufest UI 2024", as: "Program Director" },
-  { name: "Perta Daya Gas", as: "Visual Jockey" },
-  { name: "Normatif Showcase", as: "Switcher" },
-  { name: "Makarapreneur HIPMI PT UI 2024", as: "Switcher & Live Streaming" },
-  { name: "Super Millage Vehicle UI 2024", as: "Switcher & Live Streaming" },
 ];
