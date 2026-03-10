@@ -6,6 +6,7 @@ const AboutMe = (props: ScriptProps) => {
   return (
     <div id={props.id} className="relative w-screen h-[100svh] lg:h-[70svh] bg-gradient-to-b from-gray-900 from-50% to-black flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-25 text-gray-100">
       <div className="relative lg:top-5 w-[275px] h-[275px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] overflow-visible flex justify-center items-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={aboutMe.image}
           alt="My Portrait"

@@ -69,10 +69,10 @@ const Highlights = (props: ScriptProps) => {
     const projectsArr = projects[Number(id)];
     return (
       <>
-        {projectsArr.map((project) => (
+        {projectsArr.map((project, index) => (
           <span
-            key={project.id}
-            id={project.id}
+            key={project.name + index}
+            id={project.name.replace(/\s+/g, '-').toLowerCase()}
             onMouseEnter={() => onHover(project.img)}
             className="hover:text-white transition-all duration-300 text-nowrap p-0 m-0"
           >
@@ -137,6 +137,7 @@ const Highlights = (props: ScriptProps) => {
             className="absolute z-10"
           />
         )}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image}
           alt="Projects Image"

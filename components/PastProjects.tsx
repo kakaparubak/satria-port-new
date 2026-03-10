@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { pastProjects } from "@/data";
 import { useRef, useState } from "react";
 import gsap from "gsap";
@@ -164,10 +165,7 @@ const PastProjects = (props: ScriptProps) => {
 
   return (
     <div className="h-auto w-screen bg-gray-200 flex flex-col justify-baseline pb-40 items-center relative z-10">
-      <h1
-        id={props.id}
-        className="mt-[100svh] font-poppins font-extrabold text-black text-center px-4 text-5xl md:text-6xl lg:text-7xl tracking-tight"
-      >
+      <h1 id={props.id} className="mt-[100svh] font-poppins font-extrabold text-black text-center px-4 text-5xl md:text-6xl lg:text-7xl tracking-tight">
         MY PROJECTS
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-5 gap-y-5 mt-8">

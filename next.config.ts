@@ -1,13 +1,21 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/admin",
+        destination: "/admin/index.html",
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
-          protocol: 'https',
-          hostname: 'i.imgur.com',
-          port: '',
-          pathname: '**'
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+        port: '',
+        pathname: '**'
       },
       {
         protocol: 'https',
