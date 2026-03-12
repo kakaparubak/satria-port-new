@@ -2,9 +2,7 @@
   "roles": [
     "Lighting Designer.",
     "Lighting Operator.",
-    "Lighting Programmer.",
-    "Program Director.",
-    "Multicam Switcher."
+    "Lighting Programmer."
   ],
   "aboutMe": {
     "name": "Satria Chandra",
@@ -66,6 +64,28 @@
     }
   ],
   "pastProjects": [
+    {
+      "name": "HUT PDI Perjuangan 53",
+      "img": [
+        "https://file.garden/aNi2Brn6tHaGaMz9/HUT%20PDI/PDI%20Main%20photo.jpeg",
+        "https://file.garden/aNi2Brn6tHaGaMz9/HUT%20PDI/YD208060.jpg",
+        "https://file.garden/aNi2Brn6tHaGaMz9/HUT%20PDI/YD204650.jpg"
+      ],
+      "myRole": "Lighting Designer",
+      "about": "About this project...",
+      "direction": "1"
+    },
+    {
+      "name": "Muse in Jakarta 2025",
+      "img": [
+        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250919_205313_1(1).jpg",
+        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0019.jpg",
+        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0031.jpg"
+      ],
+      "myRole": "Lighting Programmer",
+      "about": "The production involved massive logistics, including fixtures, advanced lighting systems, LED walls, kinetic trusses, automation, and Pyro FX. Managing such a high-level setup sharpened my skills in system integration, technical planning, and cross-team collaboration.",
+      "direction": "-1"
+    },
     {
       "name": "Pestapora 2024",
       "img": [
@@ -142,17 +162,6 @@
       "myRole": "Lighting Programmer",
       "about": "Coordinated technical aspects with the production manager, vendors, and Green Day’s touring team was to ensure a seamless experience. From system setup to artist arrival, this project sharpened my skills in production management and cross-team communication.",
       "direction": "1"
-    },
-    {
-      "name": "Muse in Jakarta 2025",
-      "img": [
-        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/20250919_205313_1(1).jpg",
-        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0019.jpg",
-        "https://file.garden/aNi2Brn6tHaGaMz9/Muse%20Jakarta/IMG-20250920-WA0031.jpg"
-      ],
-      "myRole": "Lighting Programmer",
-      "about": "The production involved massive logistics, including fixtures, advanced lighting systems, LED walls, kinetic trusses, automation, and Pyro FX. Managing such a high-level setup sharpened my skills in system integration, technical planning, and cross-team collaboration.",
-      "direction": "-1"
     }
   ],
   "moreProjects": [
